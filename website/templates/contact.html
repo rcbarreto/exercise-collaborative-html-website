@@ -1,26 +1,29 @@
 <!-- your html code here -->
 
-<div style="margin-left: 5%; margin-right: 5%;">
+<div class="container flex-wrap d-flex">
 <div>
     <h2>Contact</h2>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque provident magni unde dolor deserunt quidem. Non sapiente, culpa, ipsam velit ipsa laudantium numquam doloremque nemo fugit nam necessitatibus id quo.</p>
 </div>
 
-<div class="container mt-5">
-    <div class="row justify-content-center">
-      <div class="col-md-6">
+<div class="container mt-4 bg-light w-75">
+    <div class="row justify-content-end">
+      <div class="col-md-10">
         <form>
-          <div class="mb-3">
-            <label for="email" class="form-label">Your E-mail</label>
+          <div class="mb-3 d-flex flex-row" style="margin-top: 10px;">
+            <label for="email" class="form-label col-md-2 text-end" style="margin-right: 10px;"><b>Your E-mail</b></label>
             <input type="email" class="form-control" id="email" placeholder="Your email">
+            
           </div>
-          <div class="mb-3">
-            <label for="message" class="form-label">Your message</label>
-            <textarea class="form-control" id="message" rows="4" placeholder="Please enter your message here..."></textarea>
+          <div class="mb-3 d-flex flex-row">
+            <label for="message" class="col-md-2 text-end" style="margin-right: 10px;" ><b>Your message</b></label>
+            <textarea class="form-control" id="message" rows="6" placeholder="Please enter your message here..."></textarea>
           </div>
-          <button type="submit" class="btn btn-primary" style="float: right;">Submit</button>
+          <button type="submit" class="btn btn-primary" style="float: right;" >Submit</button>
         </form>
       </div>
     </div>
   </div>
 </div>
+
+<hr>
